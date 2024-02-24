@@ -4872,6 +4872,10 @@ html {
   
   .inner-container._430px {
     max-width: 430px;
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    text-align: center;
   }
   
   .inner-container.hero-v1-content {
@@ -6708,7 +6712,7 @@ html {
     flex: 1;
     grid-template-rows: auto;
     grid-template-columns: repeat(auto-fit, 31px);
-    justify-content: start;
+    justify-content: center;
     justify-items: start;
   }
   
