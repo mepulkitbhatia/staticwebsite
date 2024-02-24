@@ -3588,6 +3588,10 @@ html {
     display: inline-block;
   }
   
+  .footer-img {
+    width: 50%;
+  }
+
   label {
     color: var(--neutral--800);
     margin-bottom: 12px;
@@ -7933,7 +7937,7 @@ html {
   }
   
   .menu-wrapper.last {
-    width: auto;
+    /* width: auto; */
     max-width: none;
     margin-right: 0;
   }
